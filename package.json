@@ -1,0 +1,20 @@
+{
+  "name": "project-template",
+  "version": "1.0.1",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "lint:backend": "cd backend && npm run style:check",
+    "lint:frontend": "cd frontend && npm run style:check",
+    "lint:frontend:css": "cd frontend && npm run style:css",
+    "lint:all": "npm run lint:backend && npm run lint:frontend && npm run lint:frontend:css"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "",
+  "dependencies": {},
+  "devDependencies": {
+    "husky": "^3.0.9",
+    "lint-staged": "^9.4.2"
+  }
+}

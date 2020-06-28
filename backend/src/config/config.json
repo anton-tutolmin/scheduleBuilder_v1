@@ -1,0 +1,29 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "lineate4@Sun",
+    "database": "development",
+    "host": "db",
+    "port": "5432",
+    "dialect": "postgres",
+    "operatorsAliases": false
+  },
+  "test": {
+    "username": "postgres",
+    "password": "lineate4@Sun",
+    "database": "test",
+    "host": "db",
+    "port": "5432",
+    "dialect": "postgres",
+    "operatorsAliases": false
+  },
+  "production": {
+    "username": "postgres",
+    "password": "lineate4@Sun",
+    "database": "production",
+    "host": "db",
+    "port": "5432",
+    "dialect": "postgres",
+    "operatorsAliases": false
+  }
+}
